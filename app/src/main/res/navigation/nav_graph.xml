@@ -38,5 +38,13 @@
         android:name="com.example.loveapp.ui.fragments.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="com.example.loveapp.ui.fragments.OnBoardFragment"
+        android:label="OnBoardFragment" >
+        <action
+            android:id="@+id/action_onBoardFragment_to_calculateFragment"
+            app:destination="@id/calculateFragment" />
+    </fragment>
 
 </navigation>
