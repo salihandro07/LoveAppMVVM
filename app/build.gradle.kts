@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.loveapp"
-        minSdk = 24
+        minSdk = 27
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -89,6 +89,9 @@ dependencies {
     //room
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+
+    //DotsIndicator
+    implementation(libs.dotsindicator)
 
     implementation("com.google.dagger:hilt-android:2.51.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
